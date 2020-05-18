@@ -20,7 +20,7 @@ public class Interfaz implements ActionListener {
     String oper[] = {"R", "C", "+", "/", "-", "*", "="}, textoAuxiliar = "";
     float operando1, operando2, resultado, memoria;//variables para las operaciones
     int tipOp; //para controlar el tipo de operacion que se realiza
-    boolean t = false;//control sobre escribir un nuevo numero despues de alguna operacion cambia a true cuando se ha realizado una operacion
+    boolean t = true;//control sobre escribir un nuevo numero despues de alguna operacion cambia a true cuando se ha realizado una operacion
 
     /**
      * Define la interfaz grafica de la aplicacion
